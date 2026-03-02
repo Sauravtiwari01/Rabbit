@@ -1,0 +1,16 @@
+#logs
+logs
+*.logs
+
+# Node Modules
+frontend/node_modules/
+backend/node_modules/
+
+# Enviroment Variables
+frontend/.env
+backend/.env
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
