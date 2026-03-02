@@ -10,7 +10,7 @@ const HeroSection = () => {
                     <h1 className='text-4xl md:text-9xl font-bold tracking-tighter uppercase mb-4'>vacation
                         <br />ready</h1>
                     <p className='text-sm tracking-tighter md:text-lg mb-6'>Explore our vacation-ready outfits with fast world-wide shipping.</p>
-                    <Link className='bg-white text-gray-950 text-lg rounded-sm px-6 py-2'>Shop Now</Link>
+                    <Link to="/collections/all" className='bg-white text-gray-950 text-lg rounded-sm px-6 py-2'>Shop Now</Link>
                 </div>
             </div>
         </section>
