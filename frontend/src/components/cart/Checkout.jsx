@@ -160,6 +160,9 @@ const Checkout = () => {
                         {!checkoutId ? (<button type='submit' className='bg-black text-white rounded w-full py-3'>Continue to payment</button>) : (
                             <div>
                                 <h3 className='text-lg mb-4'>Pay with PayPal</h3>
+                                <p className='italic text-xs'>Test payment credentials</p>
+                                <p className='italic text-xs'>Email: pay@order.com</p>
+                                <p className='italic text-xs mb-2'>pass: 12345678</p>
                                 {/* Paypal button */}
                                 <PayPalButton amount={cart.totalPrice} onSuccess={handlePaymentSuccess} onError={(err) => alert("Payment failed. Try again")} />
                             </div>
