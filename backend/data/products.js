@@ -565,7 +565,7 @@ const products = [
     name: "High-Waist Skinny Jeans",
     description:
       "High-waist skinny jeans in stretch denim with a button and zip fly. Features a flattering fit that hugs your curves and enhances your silhouette.",
-    price: 50,
+    price: 650,
     discountPrice: 45,
     countInStock: 30,
     sku: "BW-W-001",
@@ -578,8 +578,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=19",
-        altText: "High-Waist Skinny Jeans",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528270/High-Waist_Skinny_Jeans-front_nakumh.jpg",
+        altText: "High-Waist Skinny Jeans Front",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528268/High-Waist_Skinny_Jeans-back_axf9pg.jpg",
+        altText: "High-Waist Skinny Jeans Back",
       },
     ],
     rating: 4.8,
@@ -589,7 +593,7 @@ const products = [
     name: "Wide-Leg Trousers",
     description:
       "Flowy, wide-leg trousers with a high waist and side pockets. Perfect for an elegant look that combines comfort and style.",
-    price: 60,
+    price: 1660,
     discountPrice: 55,
     countInStock: 25,
     sku: "BW-W-002",
@@ -602,8 +606,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=20",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528280/Wide-Leg_Trousers-front_vra9vc.jpg",
         altText: "Wide-Leg Trousers Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528279/Wide-Leg_Trousers-back_n94nld.jpg",
+        altText: "Wide-Leg Trousers Back View",
       },
     ],
     rating: 4.7,
@@ -613,7 +621,7 @@ const products = [
     name: "Stretch Leggings",
     description:
       "Soft, stretch leggings in a high-rise style. Perfect for lounging, working out, or casual wear, with a smooth fit that flatters your body.",
-    price: 25,
+    price: 425,
     discountPrice: 20,
     countInStock: 40,
     sku: "BW-W-003",
@@ -626,8 +634,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=21",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528279/Stretch_Leggings-front_ypnrvi.jpg",
         altText: "Stretch Leggings Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528278/Stretch_Leggings-back_dswlqp.jpg",
+        altText: "Stretch Leggings Back View",
       },
     ],
     rating: 4.5,
@@ -638,7 +650,7 @@ const products = [
     description:
       "Elegant pleated midi skirt with a high waistband and soft fabric that drapes beautifully. Ideal for both formal and casual occasions.",
     price: 55,
-    discountPrice: 50,
+    discountPrice: 550,
     countInStock: 20,
     sku: "BW-W-004",
     category: "Bottom Wear",
@@ -650,8 +662,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=22",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528274/Pleated_Midi_Skirt-front_bdowpw.jpg",
         altText: "Pleated Midi Skirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528272/Pleated_Midi_Skirt-back_rghf2j.jpg",
+        altText: "Pleated Midi Skirt Back View",
       },
     ],
     rating: 4.6,
@@ -661,7 +677,7 @@ const products = [
     name: "Flared Palazzo Pants",
     description:
       "High-waist palazzo pants with a loose, flowing fit. Comfortable and stylish, making them perfect for casual outings or beach days.",
-    price: 45,
+    price: 645,
     discountPrice: 40,
     countInStock: 35,
     sku: "BW-W-005",
@@ -674,8 +690,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=23",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528266/Flared_Palazzo_Pants-front_ybjzzh.jpg",
         altText: "Flared Palazzo Pants Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528266/Flared_Palazzo_Pants-back_i8eid0.jpg",
+        altText: "Flared Palazzo Pants Back View",
       },
     ],
     rating: 4.4,
@@ -685,7 +705,7 @@ const products = [
     name: "High-Rise Joggers",
     description:
       "Comfortable high-rise joggers with an elastic waistband and drawstring for a perfect fit. Great for lounging or working out.",
-    price: 40,
+    price: 410,
     discountPrice: 35,
     countInStock: 30,
     sku: "BW-W-006",
@@ -698,8 +718,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=24",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528383/High-Rise_Joggers-front_w34dqa.jpg",
         altText: "High-Rise Joggers Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528266/High-Rise_Joggers-back_k2idtt.jpg",
+        altText: "High-Rise Joggers Back View",
       },
     ],
     rating: 4.3,
@@ -709,7 +733,7 @@ const products = [
     name: "Paperbag Waist Shorts",
     description:
       "Stylish paperbag waist shorts with a belted waist and wide legs. Perfect for summer outings and keeping cool in style.",
-    price: 35,
+    price: 635,
     discountPrice: 30,
     countInStock: 20,
     sku: "BW-W-007",
@@ -722,8 +746,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=25",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528271/Paperbag_Waist_Shorts-front_wmfl0y.jpg",
         altText: "Paperbag Waist Shorts Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528270/Paperbag_Waist_Shorts-back_ruo5a3.jpg",
+        altText: "Paperbag Waist Shorts Back View",
       },
     ],
     rating: 4.5,
@@ -733,7 +761,7 @@ const products = [
     name: "Stretch Denim Shorts",
     description:
       "Comfortable stretch denim shorts with a high-waisted fit and raw hem. Perfect for pairing with your favorite tops during warmer months.",
-    price: 40,
+    price: 440,
     discountPrice: 35,
     countInStock: 25,
     sku: "BW-W-008",
@@ -746,8 +774,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=26",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528275/Stretch_Denim_Shorts-front_gewpkg.jpg",
         altText: "Stretch Denim Shorts Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528275/Stretch_Denim_Shorts-back_bnwpn3.jpg",
+        altText: "Stretch Denim Shorts Back View",
       },
     ],
     rating: 4.7,
@@ -757,7 +789,7 @@ const products = [
     name: "Culottes",
     description:
       "Wide-leg culottes with a flattering high waist and cropped length. The perfect blend of comfort and style for any casual occasion.",
-    price: 50,
+    price: 550,
     discountPrice: 45,
     countInStock: 30,
     sku: "BW-W-009",
@@ -770,8 +802,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=27",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528266/Culottes-front_h2lke4.jpg",
         altText: "Culottes Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528266/Culottes-front2_gbz2s6.jpg",
+        altText: "Culottes Front 2 View",
       },
     ],
     rating: 4.6,
@@ -781,7 +817,7 @@ const products = [
     name: "Classic Pleated Trousers",
     description:
       "Timeless pleated trousers with a tailored fit. A wardrobe essential for workwear or formal occasions.",
-    price: 70,
+    price: 770,
     discountPrice: 65,
     countInStock: 25,
     sku: "BW-W-010",
@@ -794,8 +830,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=28",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528266/Classic_Pleated_Trousers-front_nkgebu.jpg",
         altText: "Classic Pleated Trousers Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772528265/Classic_Pleated_Trousers-back_kn70ik.jpg",
+        altText: "Classic Pleated Trousers Back View",
       },
     ],
     rating: 4.8,
@@ -805,7 +845,7 @@ const products = [
     name: "Knitted Cropped Top",
     description:
       "A stylish knitted cropped top with a flattering fitted silhouette. Perfect for pairing with high-waisted jeans or skirts for a casual look.",
-    price: 40,
+    price: 340,
     discountPrice: 35,
     countInStock: 25,
     sku: "TW-W-001",
@@ -818,8 +858,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=29",
-        altText: "Knitted Cropped Top",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529313/Knitted_Cropped_Top-front_srz3yu.jpg",
+        altText: "Knitted Cropped Top Front",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529312/Knitted_Cropped_Top-back_hpufoj.jpg",
+        altText: "Knitted Cropped Top Back",
       },
     ],
     rating: 4.6,
@@ -829,7 +873,7 @@ const products = [
     name: "Boho Floral Blouse",
     description:
       "Flowy boho blouse with floral patterns, featuring a relaxed fit and balloon sleeves. Ideal for casual summer days.",
-    price: 50,
+    price: 450,
     discountPrice: 45,
     countInStock: 30,
     sku: "TW-W-002",
@@ -842,8 +886,12 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=30",
-        altText: "Boho Floral Blouse",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529305/Boho_Floral_Blouse-front_ddjzus.jpg",
+        altText: "Boho Floral Blouse Front",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529306/Boho_Floral_Blouse-front2_cadage.jpg",
+        altText: "Boho Floral Blouse Front2",
       },
     ],
     rating: 4.7,
@@ -853,7 +901,7 @@ const products = [
     name: "Casual T-Shirt",
     description:
       "A soft, breathable casual t-shirt with a classic fit. Features a round neckline and short sleeves, perfect for everyday wear.",
-    price: 25,
+    price: 225,
     discountPrice: 20,
     countInStock: 50,
     sku: "TW-W-003",
@@ -866,7 +914,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=31",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529306/Casual_T-Shirt1_rixg54.jpg",
+        altText: "Casual T-Shirt",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529306/Casual_T-Shirt2_s3wwlu.jpg",
         altText: "Casual T-Shirt",
       },
     ],
@@ -877,7 +929,7 @@ const products = [
     name: "Off-Shoulder Top",
     description:
       "An elegant off-shoulder top with ruffled sleeves and a flattering fit. Ideal for adding a touch of femininity to your outfit.",
-    price: 45,
+    price: 645,
     discountPrice: 40,
     countInStock: 35,
     sku: "TW-W-004",
@@ -890,7 +942,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=32",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529317/Off-Shoulder_Top1_tfehfn.jpg",
+        altText: "Off-Shoulder Top",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529319/Off-Shoulder_Top2_anw8eb.jpg",
         altText: "Off-Shoulder Top",
       },
     ],
@@ -901,7 +957,7 @@ const products = [
     name: "Lace-Trimmed Cami Top",
     description:
       "A delicate cami top with lace trim and adjustable straps. The lightweight fabric makes it perfect for layering or wearing alone during warmer weather.",
-    price: 35,
+    price: 435,
     discountPrice: 30,
     countInStock: 40,
     sku: "TW-W-005",
@@ -914,7 +970,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=33",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529314/Lace-Trimmed_Cami_Top1_zbtjm2.jpg",
+        altText: "Lace-Trimmed Cami Top",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529315/Lace-Trimmed_Cami_Top2_lqz1jm.jpg",
         altText: "Lace-Trimmed Cami Top",
       },
     ],
@@ -925,20 +985,24 @@ const products = [
     name: "Graphic Print Tee",
     description:
       "A trendy graphic print tee with a relaxed fit. Pair it with jeans or skirts for a cool and casual look.",
-    price: 30,
+    price: 230,
     discountPrice: 25,
     countInStock: 45,
     sku: "TW-W-006",
     category: "Top Wear",
     brand: "StreetStyle",
     sizes: ["S", "M", "L", "XL"],
-    colors: ["White", "Black"],
+    colors: ["Red", "White", "Black"],
     collections: "Urban Collection",
     material: "Cotton",
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=34",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529310/Graphic_Print_Tee1_n57bz9.jpg",
+        altText: "Graphic Print Tee",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529311/Graphic_Print_Tee2_y1c0ro.jpg",
         altText: "Graphic Print Tee",
       },
     ],
@@ -949,7 +1013,7 @@ const products = [
     name: "Ribbed Long-Sleeve Top",
     description:
       "A cozy ribbed long-sleeve top that offers comfort and style. Perfect for layering during cooler months.",
-    price: 55,
+    price: 555,
     discountPrice: 50,
     countInStock: 30,
     sku: "TW-W-007",
@@ -962,7 +1026,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=35",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529320/Ribbed_Long-Sleeve_Top1_q77cfk.jpg",
+        altText: "Ribbed Long-Sleeve Top",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529323/Ribbed_Long-Sleeve_Top2_wyqyqr.jpg",
         altText: "Ribbed Long-Sleeve Top",
       },
     ],
@@ -973,7 +1041,7 @@ const products = [
     name: "Ruffle-Sleeve Blouse",
     description:
       "A lightweight ruffle-sleeve blouse with a flattering fit. Perfect for a feminine touch to any outfit.",
-    price: 45,
+    price: 645,
     discountPrice: 40,
     countInStock: 20,
     sku: "TW-W-008",
@@ -986,7 +1054,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=36",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529323/Ruffle-Sleeve_Blouse1_gdqqjh.jpg",
+        altText: "Ruffle-Sleeve Blouse",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529326/Ruffle-Sleeve_Blouse2_iqjolq.jpg",
         altText: "Ruffle-Sleeve Blouse",
       },
     ],
@@ -997,7 +1069,7 @@ const products = [
     name: "Classic Button-Up Shirt",
     description:
       "A versatile button-up shirt that can be dressed up or down. Made from soft fabric with a tailored fit, it's perfect for both casual and formal occasions.",
-    price: 60,
+    price: 660,
     discountPrice: 55,
     countInStock: 25,
     sku: "TW-W-009",
@@ -1010,7 +1082,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=37",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529307/Classic_Button-Up_Shirt1_ht3myq.jpg",
+        altText: "Classic Button-Up Shirt",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529308/Classic_Button-Up_Shirt2_l9ig59.jpg",
         altText: "Classic Button-Up Shirt",
       },
     ],
@@ -1021,7 +1097,7 @@ const products = [
     name: "V-Neck Wrap Top",
     description:
       "A chic v-neck wrap top with a tie waist. Its elegant style makes it perfect for both casual and semi-formal occasions.",
-    price: 50,
+    price: 410,
     discountPrice: 45,
     countInStock: 30,
     sku: "TW-W-010",
@@ -1034,7 +1110,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=38",
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529327/V-Neck_Wrap_Top1_ue5vth.jpg",
+        altText: "V-Neck Wrap Top",
+      },
+      {
+        url: "https://res.cloudinary.com/dcqkytn9i/image/upload/v1772529329/V-Neck_Wrap_Top2_azvttn.jpg",
         altText: "V-Neck Wrap Top",
       },
     ],

@@ -65,15 +65,15 @@ const NewArrivals = () => {
         }
     }, [newArrivals])
     return (
-        <section className='p-16'>
+        <section className='py-16 px-5'>
             <div className='container mx-auto text-center mb-10 relative'>
                 <h2 className='font-bold text-3xl mb-4'>Explore New Arrivals</h2>
-                <p className='text-lg text-gray-800 mb-8 '>Discover the latest styles straight off the runway, freshly added to keep your wardrobe on the cutting edge of fashion.</p>
+                <p className='text-lg text-gray-800 mb-10 '>Discover the latest styles straight off the runway, freshly added to keep your wardrobe on the cutting edge of fashion.</p>
 
                 {/* SCROLL BUTTONS */}
-                <div className='absolute right-0 bottom-[-30px] flex space-x-2'>
-                    <button onClick={() => { scroll("left") }} className={`rounded border p-2 ${canScrollLeft ? "bg-white text-black" : "bg-gray-200 text-gray-400"}`} disabled={!canScrollLeft}><FiChevronLeft className='text-2xl' /> </button>
-                    <button onClick={() => { scroll("right") }} className={`rounded border p-2 ${canScrollRight ? "bg-white text-black" : "bg-gray-200 text-gray-400"}`} disabled={!canScrollRight}><FiChevronRight className='text-2xl' /> </button>
+                <div className='absolute right-0 bottom-[-35px] flex space-x-2'>
+                    <button onClick={() => { scroll("left") }} className={`mt-2 rounded border p-2 ${canScrollLeft ? "bg-white text-black" : "bg-gray-200 text-gray-400"}`} disabled={!canScrollLeft}><FiChevronLeft className='text-xl' /> </button>
+                    <button onClick={() => { scroll("right") }} className={`mt-2 rounded border p-2 ${canScrollRight ? "bg-white text-black" : "bg-gray-200 text-gray-400"}`} disabled={!canScrollRight}><FiChevronRight className='text-xl' /> </button>
 
                 </div>
             </div>
@@ -85,7 +85,7 @@ const NewArrivals = () => {
                         <div className='absolute right-0 left-0 bottom-0 p-4 text-white rounded-b-lg bg-opacity-50 backdrop-blur-md'>
                             <Link className='block' to={`/product/${product._id}`}>
                                 <h4 className='font-medium'>{product.name}</h4>
-                                <p className='mt-1'>{product.price}</p></Link>
+                                <p className='mt-1'>&#8377;{product.price}</p></Link>
                         </div>
                     </div>
                 })}

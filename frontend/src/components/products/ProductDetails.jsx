@@ -88,7 +88,7 @@ const ProductDetails = ({ productId }) => {
                         <div className='md:w-1/2'>
                             <div className='mb-4'>
                                 <img src={mainImage || null} alt="Main Product Image"
-                                    className='w-full h-auto rounded-lg object-cover' />
+                                    className='w-full border h-auto rounded-lg object-cover' />
                             </div>
                         </div>
 
