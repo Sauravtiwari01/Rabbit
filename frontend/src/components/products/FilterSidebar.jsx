@@ -79,10 +79,14 @@ const FilterSidebar = () => {
         } else {
             newFilters[name] = value
         }
+
         setFilters(newFilters)
+        // updateURLParams(newFilters)
+    }
+    const applyFilter = () => {
+        let newFilters = { ...filters }
         updateURLParams(newFilters)
     }
-
     const updateURLParams = (newFilters) => {
         const params = new URLSearchParams()
         Object.keys(newFilters).forEach((key) => {
@@ -96,17 +100,19 @@ const FilterSidebar = () => {
         navigate(`?${params.toString()}`)
     }
 
-    const handlePriceChange = (e)=>{
+    const handlePriceChange = (e) => {
         let priceRange = e.target.value
-        setPriceRange([0,priceRange])
-        const newFilters = {...filters,minPrice:0,maxPrice:priceRange}
+        setPriceRange([0, priceRange])
+        let newFilters = { ...filters, minPrice: 0, maxPrice: priceRange }
         setFilters(newFilters)
-        updateURLParams(newFilters)
+        // updateURLParams(newFilters)
     }
 
     return (
-        <div className='p-4'>
+        <div className='p-4 border-r '>
             <h3 className='text-xl font-medium mb-4 text-gray-800'>Filters</h3>
+            <button onClick={applyFilter} className='bg-rabbit-red text-white py-1 px-2  mb-2 w-full text-xs rounded-lg'>Apply Filters</button>
+
             {/* CATEGORY FILTER */}
             <div className='mb-6'>
                 <label className='block text-gray-600 font-medium mb-2 '>Category</label>

@@ -14,7 +14,7 @@ const Register = () => {
     const dispatch = useDispatch()
 
     const { cart } = useSelector((state) => state.cart)
-    const { user, guestId, loading } = useSelector((state) => state.auth)
+    const { user, guestId, loading, error } = useSelector((state) => state.auth)
     const location = useLocation()
     const navigate = useNavigate()
 
@@ -77,7 +77,7 @@ const Register = () => {
                             placeholder='Enter your password' />
                     </div>
                     <button type="submit" className='bg-black text-white p-2 w-full rounded-lg hover:bg-gray-800 font-semibold'>
-                        {loading ? "Signing up..":"Sign Up"}
+                        {loading ? "Signing up.." : "Sign Up"}
                     </button>
                     <p className='mt-6 text-center text-sm'>Have an account?
                         <Link to={`/login?redirect=${encodeURIComponent(redirect)}`} className='text-blue-500 ' > Login</Link>

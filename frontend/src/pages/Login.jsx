@@ -10,7 +10,7 @@ const Login = () => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const dispatch = useDispatch()
-    const { user, guestId, loading } = useSelector((state) => state.auth)
+    const { user, guestId, loading,error } = useSelector((state) => state.auth)
     const { cart } = useSelector((state) => state.cart)
     const location = useLocation()
     const navigate = useNavigate()
@@ -43,6 +43,7 @@ const Login = () => {
                     </div>
                     <h2 className='text-2xl text-center font-bold mb-6'>Hey There!👋🏻</h2>
                     <p className='mb-6 text-center'>Enter your email and password to Login.</p>
+                    {error && <p className='text-center italic text-red-600'>{error}</p>}
                     {/* INPUT EMAIL */}
                     <div className='mb-4'>
                         <label className='block text-sm mb-2 font-semibold'>Email</label>

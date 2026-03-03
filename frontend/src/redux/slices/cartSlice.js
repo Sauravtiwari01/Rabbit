@@ -2,11 +2,11 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // load cart from localStorage
-const loadCartFromStorage = localStorage.getItem('cart') ? localStorage.getItem('cart') : { products: [] }
+const loadCartFromStorage = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : { products: [] }
 
 // save cart to localStorage
 const saveCartToStorage = (cart) => {
-    localStorage.setItem('cart', cart)
+    localStorage.setItem('cart', JSON.stringify(cart))
 }
 
 // fetch user or guest cart
@@ -68,7 +68,7 @@ export const removeFromCart = createAsyncThunk('cart/removeFromCart', async ({ p
 export const mergeCart = createAsyncThunk('cart/mergeCart', async ({ guestId, user }, { rejectWithValue }) => {
     try {
         const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/cart/merge`, { guestId, user }, {
-            Headers: {
+            headers: {
                 Authorization: `Bearer ${localStorage.getItem("userToken")}`
             },
         })
