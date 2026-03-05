@@ -8,7 +8,7 @@ const getCart = async (userId, guestId) => {
     if (userId) {
         return await Cart.findOne({ user: userId })
     } else if (guestId) {
-        return await Cart.findOne({guestId})
+        return await Cart.findOne({ guestId })
     } else
         return null
 }
@@ -112,13 +112,13 @@ router.put("/", async (req, res) => {
 })
 
 
-// @route DELETE /api/cart/:id
+// @route DELETE /api/cart
 // @desc Delete a product from cart
 // @access public
 
-router.delete("/:id", async (req, res) => {
+router.delete("/", async (req, res) => {
 
-    const { productId, size, color, guestId, userId } = req.body
+    const { productId, size, color, guestId, userId } = req.query
     try {
         let cart = await getCart(userId, guestId)
         if (!cart) return res.status(404).json({ message: "Cart not found" })
@@ -168,7 +168,7 @@ router.get("/", async (req, res) => {
 // @access private/user
 
 
-router.post("/merge",protectRoute, async (req, res) => {
+router.post("/merge", protectRoute, async (req, res) => {
     const { guestId } = req.body
     const { userId } = req.user._id
 
