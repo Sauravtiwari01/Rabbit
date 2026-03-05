@@ -170,7 +170,7 @@ router.get("/", async (req, res) => {
 
 router.post("/merge", protectRoute, async (req, res) => {
     const { guestId } = req.body
-    const { userId } = req.user._id
+    const userId = req.user._id
 
     try {
         const guestCart = await Cart.findOne({ guestId })
