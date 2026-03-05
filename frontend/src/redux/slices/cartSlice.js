@@ -54,7 +54,7 @@ export const removeFromCart = createAsyncThunk('cart/removeFromCart', async ({ p
     try {
         const response = await axios({
             method: "DELETE",
-            url: `${import.meta.env.VITE_BACKEND_URL}/api/cart`,
+            url: `${import.meta.env.VITE_BACKEND_URL}/api/cart/${productId}`,
             data: { productId, quantity, size, color, userId, guestId }
         })
         return response.data

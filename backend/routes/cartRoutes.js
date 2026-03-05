@@ -116,7 +116,7 @@ router.put("/", async (req, res) => {
 // @desc Delete a product from cart
 // @access public
 
-router.delete("/", async (req, res) => {
+router.delete("/:id", async (req, res) => {
 
     const { productId, size, color, guestId, userId } = req.body
     try {
